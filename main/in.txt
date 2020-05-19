@@ -1,0 +1,9 @@
+dorm 12
+level 1
+room 101 5 5
+Kharlap Sergey man 18 N
+room 102 5 4
+Dav Nik man 18 5 S
+level 2
+room 201 5 4
+Oly Em wom 18 S
