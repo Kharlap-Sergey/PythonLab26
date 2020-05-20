@@ -64,11 +64,15 @@ def operateInf(inf):
                 return
 
             if level != None:
+                if room != None:
+                    level.rooms.append(room)
+                    room = None
+
                 dormitory.levels.append(level)
                 level = None
 
             level = get_Level_member(i)
-            room = None
+            
         elif inf_word == "room":
             if level == None:
                 print("level wasn't distinguished")
